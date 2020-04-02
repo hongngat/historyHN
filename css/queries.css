@@ -11,12 +11,8 @@
         height: 300px;
     }
 }
-@media screen and (max-width: 768px) {
-    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
-    
-    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
-    .navbar .nav-collapse .navbar-form { margin: 0; }
-    .nav-collapse>li { float: none; }
+
+@media screen and (max-width:767px){
     .logo-banner{
         display: none;
     }
@@ -30,12 +26,9 @@
     }
     nav{
         margin-top: 0px;
-        opacity: 1;
     }
     .navbar-header a{
-       
         display: block;
-
     }
     .box-right{
         margin-top: 5%;
@@ -47,13 +40,15 @@
         margin-left: 3%;
     }
     
-}
-@media screen and (max-width:767px){
-    
     .list-img{
         margin-left: 3%;
     }
-    .text-
+    nav{
+        background-color: rgba(247, 235, 199, 1) !important;
+    }
+    .navbar-brand img{
+        width: 65%;
+    }
     .box-news{
         float: left;
     }
@@ -76,6 +71,14 @@
     .img1 img{
         height: 300px;
     }
+    .search{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:546px){
+    .navbar-brand img{
+        width: 90%;
+    }
 }
 @media screen and (max-width:414px){
     .list-img img{
@@ -90,6 +93,9 @@
     }
     .img1 img{
         height: 300px;
+    }
+    .navbar-brand img{
+        width: 100%;
     }
 }
 @media screen and (max-width:375px){
@@ -125,6 +131,12 @@
     }
     .text-scroll{
         margin-left: 25%;
+    }
+    .navbar-brand{
+        width: 100%;
+    }
+    .navbar-brand img{
+        width: 100%;
     }
 }
 
