@@ -3,6 +3,20 @@
 	clear: both;
 	display: table;
   }
+
+/* scroll nav*/ 
+  .navbar-fixed-top {
+top: -60px;
+transition: top 800ms ease 0s;
+position: fixed;
+z-index: 9999;
+}
+ .show {
+     top: 0px;
+ }
+
+
+
 .navbar-brand { position: relative; z-index: 2; }
 
 .navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
@@ -21,12 +35,11 @@
 
 
 /*Header*/
-.logo-banner{
-    border-bottom: 1px solid #94431E;
-}
+
 nav{
     background-color: rgba(247, 235, 199, 0.8) !important;
     margin-top:-4%;
+    border-bottom: 1px solid #94431E;
 }
 .navbar-header a{
     padding: 0 0 0 0;
@@ -46,6 +59,7 @@ nav{
 .nav-link{
     color: black;
     font-weight: bold;
+    font-size: 90%;
 
 }
 .nav-link i{
@@ -83,42 +97,9 @@ div .dropdown-menu{
 
 
 /*search*/
-#search {
-    float: right;
-    margin-top: 9px;
-    width: 250px;
-}
-
 .search {
-    margin-top: 3px;
-    padding: 5px 0;
-    width: 230px;
-    height: 30px;
-    position: relative;
-    left: 10px;
-    float: left;
-    line-height: 22px;
+    margin-top: 10px;
 }
-
-    .search input {
-        position: absolute;
-        width: 0px;
-        float: Left;
-        margin-left: 210px;
-        -webkit-transition: all 0.7s ease-in-out;
-        -moz-transition: all 0.7s ease-in-out;
-        -o-transition: all 0.7s ease-in-out;
-        transition: all 0.7s ease-in-out;
-        height: 30px;
-        line-height: 18px;
-        padding: 0 2px 0 2px;
-        border-radius:1px;
-    }
-
-        .search:hover input, .search input:focus {
-            width: 200px;
-            margin-left: 0px;
-        }
 
 .btn {
     height: 30px;
@@ -325,7 +306,7 @@ footer{
 .wrap-footer{
     margin-top: 5%;
 }
-.content-tags a{
+.content-tags > p > a{
     text-decoration: none;
     border: 1px solid #C8B695;
     color: black;
