@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"
     integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>
   <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
@@ -23,16 +24,14 @@
   <div class="history">
 
     <head>
-      <div class=" container-header">
+      <div class=" container-header" id="nav">
         <div class="logo-banner">
-         <a href="C:\Users\pc\Desktop\step2\historyHN/index.html">
           <img style="width:100%;" class="img-responsive" src="img/banner-2.jpg" alt="">
-         </a>
         </div>
         <nav class="navbar ">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="C:\Users\pc\Desktop\step2\historyHN/index.html">
+              <a class="navbar-brand" href="#">
                 <img src="img/logo-mobile.jpg" alt="">
               </a>
               <div class="navbar-default">
@@ -49,7 +48,7 @@
             <div class="collapse navbar-collapse nav-menu" id="myNavbar">
               <ul class="navbar-nav  container-fuild nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="C:\Users\pc\Desktop\step2\historyHN/index.html">TRANG CHỦ<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">TRANG CHỦ<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">GIỚI THIỆU</a>
@@ -88,8 +87,7 @@
                 </li>
               </ul>
               <div class="search">
-                <input type="text" class="form-control input-sm" maxlength="64" placeholder="Search" />
-                <button type="submit" class="btn btn-warning btn-sm">Search</button>
+                <i class="fas fa-search"></i>
               </div>
             </div>
           </div>
@@ -315,16 +313,18 @@
                     <div class="frames">
                       <div class="box-event">
                         <div class="title-event">
-                          <h5><a href="C:\Users\pc\Desktop\step2\historyHN/detail.html">LÃNH THỔ VIỆT NAM QUA CÁC THỜI KỲ</a></h5>
+                          <h5><a href="">LÃNH THỔ VIỆT NAM QUA CÁC THỜI KỲ</a></h5>
                         </div>
                         <div class="map-vn">
-                          <a href="C:\Users\pc\Desktop\step2\historyHN/detail.html">
+                          <a href="">
                             <img style="width:100%;" src="img/thoi-ky.jpg" alt="">
                           </a>
                           <div class="title-map">
-                            <p><a href="C:\Users\pc\Desktop\step2\historyHN/detail.html">Bản đồ lãnh thổ Việt Nam qua các thời kỳ (Phần 3)</a></p>
+                            <p><a href="C:\Users\pc\Desktop\step2/detail.html">Bản đồ lãnh thổ Việt Nam qua các thời kỳ (Phần 3)</a></p>
                             <small>Xem thêm: Bản đồ lãnh thổ Việt Nam qua các thời kỳ (Phần 2) Khởi Nghĩa Tây Sơn Sau
                               giai đoạn Trịnh Nguyễn phân tranh đât nước bị chia làm 2...</small>
+                            <br>
+                            <a href=""><em class="pull-right">[ xem chi tiết]</em></a>
                           </div>
 
                         </div>
@@ -372,15 +372,15 @@
                           style="margin-left: 10px;" class="fas fa-star"></i></a>
                     </div>
                     <ul class="news">
-                      <li><a href=""><i class="fas fa-angle-right"></i>Lăng Thiệu Trị (Xương Lăng)</a></li>
-                      <li><a href=""><i class="fas fa-angle-right"></i>Tình sử vua Duy Tân, đãi cát tìm người trong mộng</a></li>
-                      <li><a href=""><i class="fas fa-angle-right"></i>Vua Duy Tân (Nguyễn Phúc Vĩnh San)</a></li>
-                      <li><a href=""><i class="fas fa-angle-right"></i>Trang phục hoàng gia nhà Nguyễn</a></li>
-                      <li><a href=""><i class="fas fa-angle-right"></i>Bát Trân xưa, 8 món ăn quý nhất của người Việt</a></li>
-                      <li><a href=""><i class="fas fa-angle-right"></i>Thịt Dê và ẩm thực cung đình nhà Nguyễn</a></li>
-                      <li><a href=""><i class="fas fa-angle-right"></i>Con số 13 bí ẩn gắn liền với cuộc đời vua Bảo Đại</a></li>
-                      <li><a href=""><i class="fas fa-angle-right"></i>Cuộc đời thứ phi Mộng Điệp qua ảnh</a></li>
-                      <li><a href=""><i class="fas fa-angle-right"></i>Số phận đao phủ khét tiếng thời Nguyễn</a></li>
+                      <li><a href="">Lăng Thiệu Trị (Xương Lăng)</a></li>
+                      <li><a href="">Tình sử vua Duy Tân, đãi cát tìm người trong mộng</a></li>
+                      <li><a href="">Vua Duy Tân (Nguyễn Phúc Vĩnh San)</a></li>
+                      <li><a href="">Trang phục hoàng gia nhà Nguyễn</a></li>
+                      <li><a href="">Bát Trân xưa, 8 món ăn quý nhất của người Việt</a></li>
+                      <li><a href="">Thịt Dê và ẩm thực cung đình nhà Nguyễn</a></li>
+                      <li><a href="">Con số 13 bí ẩn gắn liền với cuộc đời vua Bảo Đại</a></li>
+                      <li><a href="">Cuộc đời thứ phi Mộng Điệp qua ảnh</a></li>
+                      <li><a href="">Số phận đao phủ khét tiếng thời Nguyễn</a></li>
 
                     </ul>
                   </section>
@@ -550,7 +550,7 @@
                   <div class="box-bottom wrap-home">
                     <div class="title-box-bottom">
                       <div class="text-box-bottom">
-                        <p><i class="fas fa-clipboard-list"></i><a href="">DI TÍCH LỊCH SỬ</a></p>
+                        <p><i class="fas fa-clipboard-list"></i><a href="">ANH HÙNG TIÊU BIỂU</a></p>
                       </div>
                       <ul>
                         <li><a href=""><i class="fas fa-angle-right"></i>Quần thể di tích Cố đô Huế</a></li>
@@ -592,7 +592,7 @@
                   </div>
                   <div class="content-tags">
                     <p><a href="">Lịch Sử</a>
-                    <a href="C:\Users\pc\Desktop\step2\historyHN/index.html">Lịch Sử Việt Nam</a></p>
+                    <a href="">Lịch Sử Việt Nam</a></p>
                     <p><a href="">Tư Liệu Hình ảnh</a>
                    <a href="">Dòng Lịch sử</a></p>
                     <p><a href="">Sự Kiện Lịch sử</a>
@@ -625,7 +625,7 @@
           </div>
           <hr style="border: 0.5px solid #000;">
           <div class="footer-bottom">
-            <p><a href="C:\Users\pc\Desktop\step2\historyHN/index.html">© Copyright 2020 Lịch Sử Việt Nam</a></p>
+            <p><a href="">© Copyright 2020 Lịch Sử Việt Nam</a></p>
           </div>
         </div>
       </div>
