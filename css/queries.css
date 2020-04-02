@@ -74,6 +74,9 @@
     .search{
         margin-left: 10%;
     }
+    .deital-mobile{
+        display: none;
+    }
 }
 @media screen and (max-width:546px){
     .navbar-brand img{
