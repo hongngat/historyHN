@@ -102,6 +102,9 @@ div .dropdown-menu{
 .search {
     margin-top: 10px;
 }
+.search:hover{
+    color: #933C16;
+}
 
 .btn {
     height: 30px;
@@ -228,6 +231,9 @@ div .dropdown-menu{
     font-size: 110%;
   
 }
+.title-event h5 a:hover{
+    color: #23527C;
+}
 .text-event > div > a{
     text-decoration: none;
     color: black;
@@ -238,6 +244,12 @@ div .dropdown-menu{
 .text-event div a p{
     text-align:center ;
     font-weight: bold;
+}
+.text-event div a p:hover{
+    color: #1877F2;
+}
+.text-event:hover{
+    color: #1877F2;
 }
 .item-link ul li{
     list-style: none;
@@ -251,11 +263,17 @@ div .dropdown-menu{
     margin-left: 5px;
     text-decoration: none;
 }
+.item-link ul li a:hover{
+    color: #1877F2;
+}
 .box-right-bottom{
     margin-top: 5%;
 }
 .news li{
     padding: 10px;
+}
+.news li a:hover{
+    color: #1877F2;
 }
 #scroller > div > img{
    width: 100%;
@@ -272,10 +290,14 @@ div .dropdown-menu{
     text-decoration: none;
     color: #352125;
 }
-.title-map a{
+.title-map p a{
     text-align: none;
     color: #352125;
     font-weight: bold;
+    text-decoration: none;
+}
+.title-map p a:hover{
+    color: #1877F2;
 }
 .main-bottom{
     margin-top: 30px;
@@ -284,6 +306,12 @@ div .dropdown-menu{
     text-decoration: none;
     color: #352125;
     font-weight: bold;
+}
+.text-box-bottom p a:hover{
+    color: #23527C;
+}
+.title-box p a{
+    text-decoration: none;
 }
 .text-box-bottom p{
     text-align: center;
@@ -295,10 +323,16 @@ div .dropdown-menu{
 .title-box-bottom li{
     padding: 5px;
 }
+.title-box-bottom li a:hover{
+    color: #1877F2;
+}
 .text-box-bottom i{
     margin-right: 10px;
 }
 
+.list-text li a:hover{
+    color: #6F9DD1;
+}
 /*footer*/
 footer{
     background-color: #F7E7C3;
@@ -318,6 +352,10 @@ footer{
 }
 .content-tags p{
     margin-bottom: 10px;
+}
+.content-tags p a:hover{
+    background-color: #EEEEEE;
+    color: #94431E;
 }
 .footer-bottom p{
     text-align: center;
@@ -361,4 +399,12 @@ footer{
 }
 .img1 img{
     height: 300px;
+}
+#btnLike{
+    color: white;
+    background-color: #1877F2;
+    border-radius: 10%;
+}
+#btnLike:hover{
+    background-color: #23527C;
 }
